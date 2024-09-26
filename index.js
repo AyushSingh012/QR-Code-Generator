@@ -6,8 +6,8 @@ import  fs from "fs";
 inquirer
   .prompt([
     {
-        message: "Type in your URL: ",  // This is the question which will be printed
-        name: "URL",                       // This is the answer which will be saved in name variable
+        message: "Type in your URL: ",  
+        name: "URL",                       
     },
   ])
   .then((answers) => {
